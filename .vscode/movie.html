@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>BOOK TICKET APP</h2>
+    <img src="ticket.jpg" alt="">
+    <h3>Recommended Movies</h3>
+    <img src="her.jpg" alt="" width="150" height="200">
+    <img src="beta.jpg" alt="" width="150" height="200">
+    <img src="alpha.jpg" alt="" width="150" height="200">
+    <br>
+    <label for="">Select movie</label>
+    <input type="text" list="movies-option" required>
+    <datalist id="movies-option">
+        <option>Kalki</option>
+        <option>Kill</option>
+        <option>muniya</option>
+    </datalist>
+    <br><br>
+    <label for="time">select Time</label>
+    <select id="time">
+        <option value="">--:--</option>
+        <option value="">10:00AM</option>
+        <option value="">01:30PM</option>
+        <option value="">09:00PM</option>
+    </select>
+    <br><br>
+    <label for="">Seats number</label>
+    <input type="text" list="seats-option" required>
+    <datalist id="seats-option">
+        <option value="">0</option> 
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">more than 2</option>
+    </datalist>
+    <br><br>
+    <label for="">Payment mode</label>
+    <input type="text" id="mode-option">
+    <datalist id="mode-option">
+        <option value="">UPI</option>
+        <option value="">Debit Card</option>
+        <option value="">Credit card</option>
+        <option value="">app</option>
+    </datalist>
+    <br>
+    <input type="checkbox" id="terms">
+    <label for="terms">Accept Terms and Conditions</label>
+    <br>
+    <details>
+        <summary>view Terms and Conditions</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores qui sint expedita nobis, iure
+            voluptate. Sed assumenda sit alias hic? Fuga officiis eos laborum error iure ex dolorum ad.</p>
+    </details>
+    <button type="submit">Submit</button>
+
+</body>
+
+</html>
